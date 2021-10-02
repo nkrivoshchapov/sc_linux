@@ -1,6 +1,6 @@
 import sys,os,glob
 
-for file in glob.glob("iklib/*/*.py"):
+for file in glob.glob("rcrilib/*/*.py"):
     lines = open(file,"r").readlines()
     changed = False
     i = 0
